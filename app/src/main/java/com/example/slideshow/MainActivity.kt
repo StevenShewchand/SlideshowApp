@@ -34,8 +34,7 @@ class MainActivity : ComponentActivity() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SlideShowApp() {
-    // Replace with your actual drawable names that exist in res/drawable
-    // Example expects: photo1..photo7 (png/jpg/webp)
+    
     val images = listOf(
         R.drawable.photo1,
         R.drawable.photo2,
